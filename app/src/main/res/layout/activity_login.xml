@@ -5,39 +5,26 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="20sp"
-    tools:context=".MainActivity">
+    tools:context=".Login">
 
     <EditText
-        android:id="@+id/reg_email"
+        android:id="@+id/log_email"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/email"></EditText>
 
     <EditText
-        android:id="@+id/reg_password"
+        android:id="@+id/log_password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/password"></EditText>
 
-    <EditText
-        android:id="@+id/reg_confirm"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="@string/confirm_password"></EditText>
-
     <Button
-        android:id="@+id/reg_btn"
+        android:id="@+id/log_btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/register">
+        android:text="@string/login">
 
     </Button>
-    <Button
-    android:id="@+id/go_btn"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:text="@string/login">
 
-</Button>
 </LinearLayout>
